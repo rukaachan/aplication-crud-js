@@ -59,4 +59,4 @@ window.addEventListener('load', () => {
 			list_el.removeChild(task_el);
 		});
 	});
-}); 
+});
