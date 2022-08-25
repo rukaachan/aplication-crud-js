@@ -29,18 +29,20 @@ header {
 	margin: 0 auto;
 }
 
-header h1{ 
+header h1 {
 	font-size: 2.5rem;
 	font-weight: 300;
 	color: var(--grey);
-    margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 #new-task-form {
-	display: flex;;
+	display: flex;
+	;
 }
 
-input, button {
+input,
+button {
 	appearance: none;
 	border: none;
 	outline: none;
@@ -49,7 +51,7 @@ input, button {
 
 #new-task-input {
 	flex: 1 1 0%;
-    background-color: var(--darker);
+	background-color: var(--darker);
 	padding: 1rem;
 	border-radius: 1rem;
 	margin-right: 1rem;
@@ -65,8 +67,8 @@ input, button {
 	color: var(--pink);
 	font-size: 1.25rem;
 	font-weight: 700;
-    background-image: linear-gradient(to right, var(--pink), var(--purple));
-    background-clip: border-box;
+	background-image: linear-gradient(to right, var(--pink), var(--purple));
+	background-clip: border-box;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	cursor: pointer;
@@ -147,12 +149,13 @@ main {
 }
 
 .task .actions .edit {
-    background-image: linear-gradient(to right, var(--pink), var(--purple));
-    background-clip: border-box;;
+	background-image: linear-gradient(to right, var(--pink), var(--purple));
+	background-clip: border-box;
+	;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
 .task .actions .delete {
 	color: crimson;
-} 
+}
