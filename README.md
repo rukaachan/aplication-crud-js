@@ -1,2 +1,1 @@
-# CRUD
-# Create Read Update Delete
+Proyek ini adalah aplikasi web sederhana yang menampilkan operasi CRUD (Create, Read, Update, Delete) menggunakan JavaScript. Aplikasi ini dirancang untuk memberikan pemahaman dasar tentang bagaimana mengelola data pada antarmuka web dengan interaksi dinamis.
